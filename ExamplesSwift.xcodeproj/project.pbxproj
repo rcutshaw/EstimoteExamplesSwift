@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1700580C1B2D68330074266D /* ESTAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1700580B1B2D68330074266D /* ESTAppDelegate.swift */; };
+		1700580E1B2D68330074266D /* ESTViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1700580D1B2D68330074266D /* ESTViewController.swift */; };
+		170058221B2D6B8C0074266D /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1700581D1B2D6B8C0074266D /* AdSupport.framework */; };
+		170058231B2D6B8C0074266D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1700581E1B2D6B8C0074266D /* CoreGraphics.framework */; };
+		170058241B2D6B8C0074266D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1700581F1B2D6B8C0074266D /* Foundation.framework */; };
+		170058251B2D6B8C0074266D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 170058201B2D6B8C0074266D /* SystemConfiguration.framework */; };
+		170058261B2D6B8C0074266D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 170058211B2D6B8C0074266D /* UIKit.framework */; };
+		1728A93D1B4A6D0E00112E2C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1728A93C1B4A6D0E00112E2C /* Images.xcassets */; };
+		1729BA5C1B43E54A00004B43 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1729BA581B43E54A00004B43 /* LaunchScreen.xib */; };
+		17346A7D1B3AC097007413AC /* ESTTemperatureDemoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17346A7C1B3AC097007413AC /* ESTTemperatureDemoVC.swift */; };
+		17346A7F1B3AC0AC007413AC /* ESTTemperatureDemoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17346A7E1B3AC0AC007413AC /* ESTTemperatureDemoVC.xib */; };
+		173526FF1B410F270006015F /* ESTBulkUpdaterDemoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173526FE1B410F270006015F /* ESTBulkUpdaterDemoVC.swift */; };
+		173527011B410F470006015F /* ESTBulkUpdaterDemoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 173527001B410F470006015F /* ESTBulkUpdaterDemoVC.xib */; };
+		174222BA1B4257C4002DC458 /* ESTSendGPSDemoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174222B91B4257C4002DC458 /* ESTSendGPSDemoVC.swift */; };
+		174222BC1B4257CF002DC458 /* ESTVirtualBeaconDemoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174222BB1B4257CF002DC458 /* ESTVirtualBeaconDemoVC.swift */; };
+		174222C31B429155002DC458 /* EstimoteSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 174222C21B429155002DC458 /* EstimoteSDK.framework */; };
+		1744AC351B3EBA4C00553A8A /* ESTUpdateFirmwareDemoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1744AC341B3EBA4C00553A8A /* ESTUpdateFirmwareDemoVC.swift */; };
+		1744AC371B3EBB9E00553A8A /* ESTUpdateFirmwareDemoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1744AC361B3EBB9E00553A8A /* ESTUpdateFirmwareDemoVC.xib */; };
+		1744B9B91B3405EF0078B524 /* ESTBeaconTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1744B9B81B3405EF0078B524 /* ESTBeaconTableVC.swift */; };
+		174678691B38198800F4D9F5 /* ESTProximityDemoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174678681B38198800F4D9F5 /* ESTProximityDemoVC.swift */; };
+		1746786C1B3905D800F4D9F5 /* ESTNotificationDemoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1746786A1B3905D800F4D9F5 /* ESTNotificationDemoVC.swift */; };
+		1746786F1B3908D600F4D9F5 /* ESTNotificationDemoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1746786E1B3908D600F4D9F5 /* ESTNotificationDemoVC.xib */; };
+		174731891B353F9B008A002D /* ESTDistanceDemoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174731881B353F9B008A002D /* ESTDistanceDemoVC.swift */; };
+		17745FA81B412A110086DD19 /* ESTBulkUpdaterRemoteDemoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17745FA71B412A110086DD19 /* ESTBulkUpdaterRemoteDemoVC.swift */; };
+		17745FAA1B412A2F0086DD19 /* ESTBulkUpdaterRemoteDemoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17745FA91B412A2F0086DD19 /* ESTBulkUpdaterRemoteDemoVC.xib */; };
+		1781D76C1B3CF3700043310B /* ESTBeaconDetailsDemoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1781D76B1B3CF3700043310B /* ESTBeaconDetailsDemoVC.swift */; };
+		1781D76E1B3CF3A00043310B /* ESTBeaconDetailsDemoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1781D76D1B3CF3A00043310B /* ESTBeaconDetailsDemoVC.xib */; };
+		1781D7701B3D4FA50043310B /* ESTCloudBeaconTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1781D76F1B3D4FA50043310B /* ESTCloudBeaconTableVC.swift */; };
+		1781D7721B3D4FC50043310B /* ESTCloudBeaconTableVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1781D7711B3D4FC50043310B /* ESTCloudBeaconTableVC.xib */; };
+		1781D7761B3D51880043310B /* ESTSendGPSDemoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1781D7751B3D51880043310B /* ESTSendGPSDemoVC.xib */; };
+		178DC2D81B3BBF8D004C88D2 /* ESTMotionDetectionDemoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178DC2D71B3BBF8D004C88D2 /* ESTMotionDetectionDemoVC.swift */; };
+		178DC2DA1B3BBFA3004C88D2 /* ESTMotionDetectionDemoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 178DC2D91B3BBFA3004C88D2 /* ESTMotionDetectionDemoVC.xib */; };
+		178DC2DC1B3BE746004C88D2 /* ESTMotionUUIDDemoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178DC2DB1B3BE746004C88D2 /* ESTMotionUUIDDemoVC.swift */; };
+		178DC2E01B3BE7F2004C88D2 /* ESTMotionUUIDDemoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 178DC2DF1B3BE7F2004C88D2 /* ESTMotionUUIDDemoVC.xib */; };
+		178DC2E21B3BF22B004C88D2 /* ESTMotionUUIDSettingsDemoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178DC2E11B3BF22B004C88D2 /* ESTMotionUUIDSettingsDemoVC.swift */; };
+		178DC2E41B3BF23B004C88D2 /* ESTMotionUUIDSettingsDemoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 178DC2E31B3BF23B004C88D2 /* ESTMotionUUIDSettingsDemoVC.xib */; };
+		17AFB27A1B32C06900198B27 /* ESTVirtualBeaconDemoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17AFB2791B32C06900198B27 /* ESTVirtualBeaconDemoVC.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		170058081B2D68330074266D /* ExamplesSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExamplesSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1700580B1B2D68330074266D /* ESTAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESTAppDelegate.swift; sourceTree = "<group>"; };
+		1700580D1B2D68330074266D /* ESTViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESTViewController.swift; sourceTree = "<group>"; };
+		170058171B2D68330074266D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1700581D1B2D6B8C0074266D /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		1700581E1B2D6B8C0074266D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1700581F1B2D6B8C0074266D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		170058201B2D6B8C0074266D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		170058211B2D6B8C0074266D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1700582C1B2D79440074266D /* ObjCBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjCBridge.h; sourceTree = "<group>"; };
+		1728A93C1B4A6D0E00112E2C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1729BA591B43E54A00004B43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		17346A7C1B3AC097007413AC /* ESTTemperatureDemoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESTTemperatureDemoVC.swift; sourceTree = "<group>"; };
+		17346A7E1B3AC0AC007413AC /* ESTTemperatureDemoVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ESTTemperatureDemoVC.xib; sourceTree = "<group>"; };
+		173526FE1B410F270006015F /* ESTBulkUpdaterDemoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESTBulkUpdaterDemoVC.swift; sourceTree = "<group>"; };
+		173527001B410F470006015F /* ESTBulkUpdaterDemoVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ESTBulkUpdaterDemoVC.xib; sourceTree = "<group>"; };
+		174222B91B4257C4002DC458 /* ESTSendGPSDemoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESTSendGPSDemoVC.swift; sourceTree = "<group>"; };
+		174222BB1B4257CF002DC458 /* ESTVirtualBeaconDemoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESTVirtualBeaconDemoVC.swift; sourceTree = "<group>"; };
+		174222C21B429155002DC458 /* EstimoteSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EstimoteSDK.framework; path = ../../EstimoteSDK/EstimoteSDK.framework; sourceTree = "<group>"; };
+		1744AC341B3EBA4C00553A8A /* ESTUpdateFirmwareDemoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESTUpdateFirmwareDemoVC.swift; sourceTree = "<group>"; };
+		1744AC361B3EBB9E00553A8A /* ESTUpdateFirmwareDemoVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ESTUpdateFirmwareDemoVC.xib; sourceTree = "<group>"; };
+		1744B9B81B3405EF0078B524 /* ESTBeaconTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESTBeaconTableVC.swift; sourceTree = "<group>"; };
+		174678681B38198800F4D9F5 /* ESTProximityDemoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESTProximityDemoVC.swift; sourceTree = "<group>"; };
+		1746786A1B3905D800F4D9F5 /* ESTNotificationDemoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESTNotificationDemoVC.swift; sourceTree = "<group>"; };
+		1746786E1B3908D600F4D9F5 /* ESTNotificationDemoVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ESTNotificationDemoVC.xib; sourceTree = "<group>"; };
+		174731881B353F9B008A002D /* ESTDistanceDemoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESTDistanceDemoVC.swift; sourceTree = "<group>"; };
+		17745FA71B412A110086DD19 /* ESTBulkUpdaterRemoteDemoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESTBulkUpdaterRemoteDemoVC.swift; sourceTree = "<group>"; };
+		17745FA91B412A2F0086DD19 /* ESTBulkUpdaterRemoteDemoVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ESTBulkUpdaterRemoteDemoVC.xib; sourceTree = "<group>"; };
+		1781D76B1B3CF3700043310B /* ESTBeaconDetailsDemoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESTBeaconDetailsDemoVC.swift; sourceTree = "<group>"; };
+		1781D76D1B3CF3A00043310B /* ESTBeaconDetailsDemoVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ESTBeaconDetailsDemoVC.xib; sourceTree = "<group>"; };
+		1781D76F1B3D4FA50043310B /* ESTCloudBeaconTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESTCloudBeaconTableVC.swift; sourceTree = "<group>"; };
+		1781D7711B3D4FC50043310B /* ESTCloudBeaconTableVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ESTCloudBeaconTableVC.xib; sourceTree = "<group>"; };
+		1781D7751B3D51880043310B /* ESTSendGPSDemoVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ESTSendGPSDemoVC.xib; sourceTree = "<group>"; };
+		178DC2D71B3BBF8D004C88D2 /* ESTMotionDetectionDemoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESTMotionDetectionDemoVC.swift; sourceTree = "<group>"; };
+		178DC2D91B3BBFA3004C88D2 /* ESTMotionDetectionDemoVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ESTMotionDetectionDemoVC.xib; sourceTree = "<group>"; };
+		178DC2DB1B3BE746004C88D2 /* ESTMotionUUIDDemoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESTMotionUUIDDemoVC.swift; sourceTree = "<group>"; };
+		178DC2DF1B3BE7F2004C88D2 /* ESTMotionUUIDDemoVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ESTMotionUUIDDemoVC.xib; sourceTree = "<group>"; };
+		178DC2E11B3BF22B004C88D2 /* ESTMotionUUIDSettingsDemoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESTMotionUUIDSettingsDemoVC.swift; sourceTree = "<group>"; };
+		178DC2E31B3BF23B004C88D2 /* ESTMotionUUIDSettingsDemoVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ESTMotionUUIDSettingsDemoVC.xib; sourceTree = "<group>"; };
+		17AFB2791B32C06900198B27 /* ESTVirtualBeaconDemoVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ESTVirtualBeaconDemoVC.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		170058051B2D68330074266D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				170058221B2D6B8C0074266D /* AdSupport.framework in Frameworks */,
+				170058231B2D6B8C0074266D /* CoreGraphics.framework in Frameworks */,
+				170058241B2D6B8C0074266D /* Foundation.framework in Frameworks */,
+				170058251B2D6B8C0074266D /* SystemConfiguration.framework in Frameworks */,
+				170058261B2D6B8C0074266D /* UIKit.framework in Frameworks */,
+				174222C31B429155002DC458 /* EstimoteSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		170057FF1B2D68330074266D = {
+			isa = PBXGroup;
+			children = (
+				1700582C1B2D79440074266D /* ObjCBridge.h */,
+				1700580A1B2D68330074266D /* ExamplesSwift */,
+				170058271B2D6B990074266D /* Frameworks */,
+				170058091B2D68330074266D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		170058091B2D68330074266D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				170058081B2D68330074266D /* ExamplesSwift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1700580A1B2D68330074266D /* ExamplesSwift */ = {
+			isa = PBXGroup;
+			children = (
+				1700580B1B2D68330074266D /* ESTAppDelegate.swift */,
+				1700580D1B2D68330074266D /* ESTViewController.swift */,
+				1744B9B81B3405EF0078B524 /* ESTBeaconTableVC.swift */,
+				1781D76B1B3CF3700043310B /* ESTBeaconDetailsDemoVC.swift */,
+				1781D76D1B3CF3A00043310B /* ESTBeaconDetailsDemoVC.xib */,
+				173526FE1B410F270006015F /* ESTBulkUpdaterDemoVC.swift */,
+				173527001B410F470006015F /* ESTBulkUpdaterDemoVC.xib */,
+				17745FA71B412A110086DD19 /* ESTBulkUpdaterRemoteDemoVC.swift */,
+				17745FA91B412A2F0086DD19 /* ESTBulkUpdaterRemoteDemoVC.xib */,
+				1744AC341B3EBA4C00553A8A /* ESTUpdateFirmwareDemoVC.swift */,
+				1744AC361B3EBB9E00553A8A /* ESTUpdateFirmwareDemoVC.xib */,
+				1781D76F1B3D4FA50043310B /* ESTCloudBeaconTableVC.swift */,
+				1781D7711B3D4FC50043310B /* ESTCloudBeaconTableVC.xib */,
+				174731881B353F9B008A002D /* ESTDistanceDemoVC.swift */,
+				174678681B38198800F4D9F5 /* ESTProximityDemoVC.swift */,
+				1746786A1B3905D800F4D9F5 /* ESTNotificationDemoVC.swift */,
+				1746786E1B3908D600F4D9F5 /* ESTNotificationDemoVC.xib */,
+				178DC2D71B3BBF8D004C88D2 /* ESTMotionDetectionDemoVC.swift */,
+				178DC2D91B3BBFA3004C88D2 /* ESTMotionDetectionDemoVC.xib */,
+				178DC2DB1B3BE746004C88D2 /* ESTMotionUUIDDemoVC.swift */,
+				178DC2DF1B3BE7F2004C88D2 /* ESTMotionUUIDDemoVC.xib */,
+				178DC2E11B3BF22B004C88D2 /* ESTMotionUUIDSettingsDemoVC.swift */,
+				178DC2E31B3BF23B004C88D2 /* ESTMotionUUIDSettingsDemoVC.xib */,
+				174222B91B4257C4002DC458 /* ESTSendGPSDemoVC.swift */,
+				1781D7751B3D51880043310B /* ESTSendGPSDemoVC.xib */,
+				17346A7C1B3AC097007413AC /* ESTTemperatureDemoVC.swift */,
+				17346A7E1B3AC0AC007413AC /* ESTTemperatureDemoVC.xib */,
+				174222BB1B4257CF002DC458 /* ESTVirtualBeaconDemoVC.swift */,
+				17AFB2791B32C06900198B27 /* ESTVirtualBeaconDemoVC.xib */,
+				1728A93C1B4A6D0E00112E2C /* Images.xcassets */,
+				1729BA581B43E54A00004B43 /* LaunchScreen.xib */,
+				170058171B2D68330074266D /* Info.plist */,
+			);
+			path = ExamplesSwift;
+			sourceTree = "<group>";
+		};
+		170058271B2D6B990074266D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				174222C21B429155002DC458 /* EstimoteSDK.framework */,
+				1700581D1B2D6B8C0074266D /* AdSupport.framework */,
+				1700581E1B2D6B8C0074266D /* CoreGraphics.framework */,
+				1700581F1B2D6B8C0074266D /* Foundation.framework */,
+				170058201B2D6B8C0074266D /* SystemConfiguration.framework */,
+				170058211B2D6B8C0074266D /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		170058071B2D68330074266D /* ExamplesSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1700581A1B2D68330074266D /* Build configuration list for PBXNativeTarget "ExamplesSwift" */;
+			buildPhases = (
+				170058041B2D68330074266D /* Sources */,
+				170058051B2D68330074266D /* Frameworks */,
+				170058061B2D68330074266D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExamplesSwift;
+			productName = ExamplesSwift;
+			productReference = 170058081B2D68330074266D /* ExamplesSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		170058001B2D68330074266D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Bit Smartz LLC";
+				TargetAttributes = {
+					170058071B2D68330074266D = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = YFK43C2PXL;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 170058031B2D68330074266D /* Build configuration list for PBXProject "ExamplesSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 170057FF1B2D68330074266D;
+			productRefGroup = 170058091B2D68330074266D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				170058071B2D68330074266D /* ExamplesSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		170058061B2D68330074266D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17745FAA1B412A2F0086DD19 /* ESTBulkUpdaterRemoteDemoVC.xib in Resources */,
+				1781D76E1B3CF3A00043310B /* ESTBeaconDetailsDemoVC.xib in Resources */,
+				178DC2E41B3BF23B004C88D2 /* ESTMotionUUIDSettingsDemoVC.xib in Resources */,
+				1744AC371B3EBB9E00553A8A /* ESTUpdateFirmwareDemoVC.xib in Resources */,
+				178DC2DA1B3BBFA3004C88D2 /* ESTMotionDetectionDemoVC.xib in Resources */,
+				17346A7F1B3AC0AC007413AC /* ESTTemperatureDemoVC.xib in Resources */,
+				178DC2E01B3BE7F2004C88D2 /* ESTMotionUUIDDemoVC.xib in Resources */,
+				1781D7761B3D51880043310B /* ESTSendGPSDemoVC.xib in Resources */,
+				17AFB27A1B32C06900198B27 /* ESTVirtualBeaconDemoVC.xib in Resources */,
+				1728A93D1B4A6D0E00112E2C /* Images.xcassets in Resources */,
+				1781D7721B3D4FC50043310B /* ESTCloudBeaconTableVC.xib in Resources */,
+				1729BA5C1B43E54A00004B43 /* LaunchScreen.xib in Resources */,
+				173527011B410F470006015F /* ESTBulkUpdaterDemoVC.xib in Resources */,
+				1746786F1B3908D600F4D9F5 /* ESTNotificationDemoVC.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		170058041B2D68330074266D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1744AC351B3EBA4C00553A8A /* ESTUpdateFirmwareDemoVC.swift in Sources */,
+				1744B9B91B3405EF0078B524 /* ESTBeaconTableVC.swift in Sources */,
+				173526FF1B410F270006015F /* ESTBulkUpdaterDemoVC.swift in Sources */,
+				174731891B353F9B008A002D /* ESTDistanceDemoVC.swift in Sources */,
+				1746786C1B3905D800F4D9F5 /* ESTNotificationDemoVC.swift in Sources */,
+				1781D76C1B3CF3700043310B /* ESTBeaconDetailsDemoVC.swift in Sources */,
+				174222BC1B4257CF002DC458 /* ESTVirtualBeaconDemoVC.swift in Sources */,
+				178DC2D81B3BBF8D004C88D2 /* ESTMotionDetectionDemoVC.swift in Sources */,
+				174222BA1B4257C4002DC458 /* ESTSendGPSDemoVC.swift in Sources */,
+				1700580E1B2D68330074266D /* ESTViewController.swift in Sources */,
+				17745FA81B412A110086DD19 /* ESTBulkUpdaterRemoteDemoVC.swift in Sources */,
+				17346A7D1B3AC097007413AC /* ESTTemperatureDemoVC.swift in Sources */,
+				1781D7701B3D4FA50043310B /* ESTCloudBeaconTableVC.swift in Sources */,
+				178DC2DC1B3BE746004C88D2 /* ESTMotionUUIDDemoVC.swift in Sources */,
+				178DC2E21B3BF22B004C88D2 /* ESTMotionUUIDSettingsDemoVC.swift in Sources */,
+				174678691B38198800F4D9F5 /* ESTProximityDemoVC.swift in Sources */,
+				1700580C1B2D68330074266D /* ESTAppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1729BA581B43E54A00004B43 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1729BA591B43E54A00004B43 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		170058181B2D68330074266D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		170058191B2D68330074266D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1700581B1B2D68330074266D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../../EstimoteSDK";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../../EstimoteSDK/EstimoteSDK.framework\"/**";
+				INFOPLIST_FILE = ExamplesSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitsmartz.ExamplesSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INCLUDE_PATHS = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/ObjCBridge.h";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1700581C1B2D68330074266D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../../EstimoteSDK";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../../EstimoteSDK/EstimoteSDK.framework\"/**";
+				INFOPLIST_FILE = ExamplesSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitsmartz.ExamplesSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INCLUDE_PATHS = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/ObjCBridge.h";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		170058031B2D68330074266D /* Build configuration list for PBXProject "ExamplesSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				170058181B2D68330074266D /* Debug */,
+				170058191B2D68330074266D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1700581A1B2D68330074266D /* Build configuration list for PBXNativeTarget "ExamplesSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1700581B1B2D68330074266D /* Debug */,
+				1700581C1B2D68330074266D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 170058001B2D68330074266D /* Project object */;
+}
